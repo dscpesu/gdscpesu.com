@@ -4,6 +4,7 @@ module.exports = {
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
+    './Shared-Components/**/*.{js,ts,jsx,tsx,mdx}'
   ],
   theme: {
     extend: {
@@ -12,7 +13,14 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      // backgroundImage: {
+      //   'hero-vector': "url('/assets/hero-vector.png')",
+      // }
     },
+    // colors: {
+    //   'navbar':'#F0F0F0'
+    // },
+    
   },
   plugins: [],
 }
