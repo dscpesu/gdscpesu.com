@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+    font-family: 'google-sans';
+    src: url('/fonts/GoogleSans-Regular-v1.27.ttf'); 
+   }
+  
+*{
+    font-family: 'google-sans';
+}
