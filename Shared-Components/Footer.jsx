@@ -1,0 +1,94 @@
+import React from 'react'
+import Image from 'next/image'
+import Link from 'next/link'
+
+const footerElements = [
+    {
+        footerElementName: 'About Us',
+        link: '#about-us'
+    },
+    {
+        footerElementName: 'Domains',
+        link: '#domains'
+    },
+    {
+        footerElementName: 'Team',
+        link: '#meet-the-team'
+    },
+    {
+        footerElementName: 'Projects',
+        link: '/projects'
+    },
+    {
+        footerElementName: 'Contact Us',
+        link: '#contact-us'
+    }
+]
+const footerIcons = [
+    {
+        footerIconSourcePath: '/footer_icons/whatsapp.png',
+        footerIconAlt: 'whatsapp',
+        footerIconLink: '/',
+    },
+    {
+        footerIconSourcePath: '/footer_icons/instagram.png',
+        footerIconAlt: 'instagram',
+        footerIconLink: '/',
+    },
+    {
+        footerIconSourcePath: '/footer_icons/linkedin.png',
+        footerIconAlt: 'linkedin',
+        footerIconLink: '/',
+    },
+    {
+        footerIconSourcePath: '/footer_icons/discord.png',
+        footerIconAlt: 'discord',
+        footerIconLink: '/',
+    },
+    {
+        footerIconSourcePath: '/footer_icons/github.png',
+        footerIconAlt: 'github',
+        footerIconLink: '/',
+    },
+]
+const GDSCFooterTitle = () => {
+    return (
+        <div className="flex flex-col gap-y-7 mx-8  items-center md:items-start">
+            <div className="relative w-fit p-4 flex flex-col md:flex-row gap-y-3 md:gap-x-3   bg-white items-center justify-center">
+                <Image src={'/gdsc_logo.png'} alt='gdsc-logo-title' height={70} width={70} />
+                <h1 className="text-2xl md:text-3xl text-gray-500 text-center">Google Developer Student Clubs</h1>
+            </div>
+
+        </div>
+    )
+}
+
+
+const Footer = () => {
+    return (
+        <div className="relative w-full h-[50vh] md:h-[40vh] object-cover flex flex-col gap-3 items-center justify-center  bg-[url('/hero-vector.png')] py-12  ">
+            <div className="flex items-center justify-center"><GDSCFooterTitle /></div>
+            <div className="w-[100%] flex flex-row flex-wrap items-center justify-center gap-x-12 md:gap-x-24 gap-y-3 p-6 ">
+                {
+                    footerElements?.map((footerElement, index) => (
+                        <Link href={footerElement.link} key={index}>
+                            <p className="text-[15px] md:text-[20px] text-gray-500 hover:text-gray-600 transition ease-in duration-200">{footerElement.footerElementName}</p>
+                        </Link>
+                    ))
+                }
+            </div>
+            <div className="w-[100%] flex flex-row flex-wrap items-center justify-center gap-x-8 gap-y-6  ">
+                {
+                    footerIcons?.map((footerIcon, index) => (
+                        <Link href={footerIcon.footerIconLink} key={index}>
+                            <Image src={footerIcon.footerIconSourcePath} alt={footerIcon.footerIconAlt} height={25} width={25} />
+                        </Link>
+                    ))
+                }
+            </div>
+
+        </div>
+    )
+}
+
+export default Footer

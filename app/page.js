@@ -1,14 +1,23 @@
-import { Navbar } from "@/Shared-Components";
-import { Hero, AboutUs, WhatWeOffer } from "./RootPage-Components";
+import { Navbar,Footer } from "@/Shared-Components";
+import {
+  Hero,
+  AboutUs,
+  WhatWeOffer,
+  Domains,
+  MeetTheTeam,
+
+} from "./RootPage-Components";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center gap-y-32">
-      <Navbar/>
-      <Hero/>
-      <AboutUs/>
-      <WhatWeOffer/>
-
+      <Navbar />
+      <Hero />
+      <AboutUs />
+      <WhatWeOffer />
+      <Domains />
+      <MeetTheTeam />
+      <Footer/>
     </main>
   );
 }
