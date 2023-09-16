@@ -21,7 +21,7 @@ const GDSCTitle = () => {
 
 const Hero = () => {
   return (
-    <div className="relative w-[100vw] h-[100vh] object-cover flex items-center justify-center lg:justify-start    bg-[url('/hero-vector.png')]  ">
+    <div className="relative w-full h-[100vh] object-cover flex items-center justify-center lg:justify-start    bg-[url('/hero-vector.png')]  ">
       <div className="flex items-center md:justify-normal"><GDSCTitle /></div>
       <div className="absolute -bottom-0 md:-bottom-9 w-full flex items-center justify-center z-40">
         <div className="relative rounded-md bg-[#FFD54F]  h-fit md:w-[700px] p-4 md:p-10 mx-4">

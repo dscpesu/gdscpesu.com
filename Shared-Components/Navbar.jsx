@@ -87,19 +87,19 @@ export const Navbar = () => {
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:gap-x-3 lg:gap-x-16 md:space-y-0">
 
-                            <li className={`text-[#585858] text-xs lg:text-[20px] md:py-9 px-3 rounded-b-sm border-b-4 border-[#4285F4]   `} >
+                            <li className={`w-fit  text-[#585858] text-xs lg:text-[20px] md:py-9 px-3 rounded-b-sm border-b-4 md:border-[#4285F4]   `} >
                                 <Link href="/">Home</Link>
                             </li>
-                            <li className={`text-[#585858] text-xs lg:text-[20px] md:py-9 px-3 rounded-b-sm border-b-4 border-[#EA4335]   `} >
+                            <li className={`w-fit text-[#585858] text-xs lg:text-[20px] md:py-9 px-3 rounded-b-sm border-b-4 md:border-[#EA4335]   `} >
                                 <Link href="/">Events</Link>
                             </li>
-                            <li className={`text-[#585858] text-xs lg:text-[20px] md:py-9 px-3 rounded-b-sm border-b-4 border-[#34A853]   `} >
+                            <li className={`w-fit text-[#585858] text-xs lg:text-[20px] md:py-9 px-3 rounded-b-sm border-b-4 md:border-[#34A853]   `} >
                                 <Link href="/">Projects</Link>
                             </li>
-                            <li className={`text-[#585858] text-xs lg:text-[20px] md:py-9 px-3 rounded-b-sm border-b-4 border-[#FBBC04]   `} >
+                            <li className={`w-fit text-[#585858] text-xs lg:text-[20px] md:py-9 px-3 rounded-b-sm border-b-4 md:border-[#FBBC04]   `} >
                                 <Link href="/">Team</Link>
                             </li>
-                            <li className={`text-[#585858] text-xs lg:text-[20px] md:py-9 px-3 rounded-b-sm border-b-4 border-[#4285F4]   `} >
+                            <li className={`w-fit text-[#585858] text-xs lg:text-[20px] md:py-9 px-3 rounded-b-sm border-b-4 md:border-[#4285F4]   `} >
                                 <Link href="/">Contact Us</Link>
                             </li>
 
