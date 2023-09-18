@@ -37,9 +37,9 @@ const Domains = () => {
     return(
       <div class="relative flex flex-col w-[80%] mb-[40px] md:w-fit">
         <Image src={props.divImg} alt="Domains" />
-        <div class="absolute flex flex-col left-[30%] top-[25%] md:top-[30%]">
+        <div class="absolute flex flex-col left-[25%] top-[25%] md:top-[30%] md:left-[30%]">
           <h4 class="text-[#656C73] mb-[10px] md:text-xl">{props.heading}</h4>
-          <p class="text-black w-[70%] text-base md:text-lg">{props.description}</p>
+          <p class="text-black w-[65%] text-base md:text-lg">{props.description}</p>
         </div>   
       </div>
     )
