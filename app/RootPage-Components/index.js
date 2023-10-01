@@ -4,4 +4,5 @@ import WhatWeOffer from "./WhatWeOffer";
 import WhatWeOfferCard from "./WhatWeOfferCard";
 import Domains from "./Domains";
 import MeetTheTeam from "./MeetTheTeam";
-export {Hero, AboutUs, WhatWeOffer, WhatWeOfferCard, Domains, MeetTheTeam}
+import Events from "./Events";
+export {Hero, AboutUs, WhatWeOffer, WhatWeOfferCard, Domains, MeetTheTeam, Events}

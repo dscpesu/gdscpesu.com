@@ -5,6 +5,7 @@ import {
   WhatWeOffer,
   Domains,
   MeetTheTeam,
+  Events
 
 } from "./RootPage-Components";
 
@@ -17,6 +18,7 @@ export default function Home() {
       <WhatWeOffer />
       <Domains />
       <MeetTheTeam />
+      <Events/>
       <Footer/>
     </main>
   );
