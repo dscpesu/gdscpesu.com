@@ -5,23 +5,23 @@ import Link from 'next/link'
 const footerElements = [
     {
         footerElementName: 'About Us',
-        link: '#about-us'
+        link: '#about'
     },
     {
         footerElementName: 'Domains',
-        link: '#domains'
+        link: '/'
     },
     {
         footerElementName: 'Team',
-        link: '#meet-the-team'
+        link: '#team'
     },
     {
         footerElementName: 'Projects',
-        link: '/projects'
+        link: '/'
     },
     {
         footerElementName: 'Contact Us',
-        link: '#contact-us'
+        link: '/'
     }
 ]
 const footerIcons = [
@@ -72,7 +72,7 @@ const Footer = () => {
                 {
                     footerElements?.map((footerElement, index) => (
                         <Link href={footerElement.link} key={index}>
-                            <p className="text-[15px] md:text-[20px] text-gray-500 hover:text-gray-600 transition ease-in duration-200">{footerElement.footerElementName}</p>
+                            <p className="text-[15px] md:text-[20px] text-[#656C73] hover:text-[#323131]  transition ease-in duration-100">{footerElement.footerElementName}</p>
                         </Link>
                     ))
                 }

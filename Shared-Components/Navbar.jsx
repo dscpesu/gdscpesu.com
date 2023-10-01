@@ -33,7 +33,7 @@ export const Navbar = () => {
 
     return (
         <nav
-            className={`fixed inset-x-0 top-0 z-50 backdrop-blur  duration-200   bg-[#F0F0F0] shadow-xl`} ref={ref}
+            className={`fixed inset-x-0 top-0 z-50 backdrop-blur  duration-150   bg-[#F0F0F0] shadow-xl`} ref={ref}
         >
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
@@ -44,7 +44,7 @@ export const Navbar = () => {
                         </a>
                         <div className="md:hidden flex flex-row items-center justify-center w-fit space-x-5">
                             <button
-                                className={`p-2 text-black rounded-md outline-none focus:border-gray-400 transition ease-in-out duration-100 ${navbar && 'animate-bounce'} ${!navbar && 'animate-pulse'}`}
+                                className={`p-2 text-black rounded-md outline-none focus:border-gray-400 transition ease-in-out duration-150 ${navbar && 'animate-bounce'} ${!navbar && 'animate-pulse'}`}
                                 onClick={() => setNavbar(!navbar)}
                             >
                                 {navbar ? (
@@ -85,22 +85,22 @@ export const Navbar = () => {
                         className={`flex-1 justify-self-between  md:block md:pb-0 md:mt-0 ${navbar ? "block" : "hidden"
                             }`}
                     >
-                        <ul className="items-center justify-center space-y-8 md:flex md:gap-x-3 lg:gap-x-16 md:space-y-0">
+                        <ul className="items-center justify-center space-y-8 md:flex md:gap-x-3 lg:gap-x-16 md:space-y-0 py-4 md:py-0">
 
-                            <li className={`w-fit  text-[#585858] text-xs lg:text-[20px] md:py-9 px-3 rounded-b-sm border-b-4 md:border-[#4285F4]   `} >
-                                <Link href="/">Home</Link>
+                            <li className={`w-fit   text-md lg:text-[20px] md:py-9 px-3 rounded-b-sm md:border-b-4 md:border-[#4285F4]   `} >
+                                <Link href="/" className="text-[#585858] hover:text-[#323131]  transition ease-in duration-100">Home</Link>
                             </li>
-                            <li className={`w-fit text-[#585858] text-xs lg:text-[20px] md:py-9 px-3 rounded-b-sm border-b-4 md:border-[#EA4335]   `} >
-                                <Link href="/">Events</Link>
+                            <li className={`w-fit  text-md lg:text-[20px] md:py-9 px-3 rounded-b-sm md:border-b-4 md:border-[#EA4335]   `} >
+                                <Link href="/" className="text-[#585858] hover:text-[#323131]  transition ease-in duration-100">Events</Link>
                             </li>
-                            <li className={`w-fit text-[#585858] text-xs lg:text-[20px] md:py-9 px-3 rounded-b-sm border-b-4 md:border-[#34A853]   `} >
-                                <Link href="/">Projects</Link>
+                            <li className={`w-fit   text-md lg:text-[20px] md:py-9 px-3 rounded-b-sm md:border-b-4 md:border-[#34A853]   `} >
+                                <Link href="/" className="text-[#585858] hover:text-[#323131]  transition ease-in duration-100">Projects</Link>
                             </li>
-                            <li className={`w-fit text-[#585858] text-xs lg:text-[20px] md:py-9 px-3 rounded-b-sm border-b-4 md:border-[#FBBC04]   `} >
-                                <Link href="/">Team</Link>
+                            <li className={`w-fit   text-md lg:text-[20px] md:py-9 px-3 rounded-b-sm md:border-b-4 md:border-[#FBBC04]   `} >
+                                <Link href="#team" className="text-[#585858] hover:text-[#323131]  transition ease-in duration-100">Team</Link>
                             </li>
-                            <li className={`w-fit text-[#585858] text-xs lg:text-[20px] md:py-9 px-3 rounded-b-sm border-b-4 md:border-[#4285F4]   `} >
-                                <Link href="/">Contact Us</Link>
+                            <li className={`w-fit  text-md lg:text-[20px] md:py-9 px-3 rounded-b-sm md:border-b-4 md:border-[#4285F4]   `} >
+                                <Link href="/" className="text-[#585858] hover:text-[#323131]  transition ease-in duration-100">Contact Us</Link>
                             </li>
 
 
