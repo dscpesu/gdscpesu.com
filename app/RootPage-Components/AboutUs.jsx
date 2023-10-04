@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+
 const AboutUs = () => {
     return (
         <div id="#about" className="relative w-full h-[80vh] lg:h-[60vh]  object-cover flex items-center    bg-[url('/hero-vector.png')]   ">
