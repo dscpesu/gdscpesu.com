@@ -1,6 +1,9 @@
+'use client'
+
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 
 const events = [
     {
@@ -38,7 +41,6 @@ const EventComponent = ({ eventName,
     imageURL
 }) => {
     return (
-
         <div className="flex flex-col items-center justify-center gap-3">
             <div className="p-[10px] rounded-full border-2 border-gray-200 ">
                 <Image src={imageURL} alt='event-image' height={200} width={200} className='rounded-full' />
@@ -60,8 +62,9 @@ const EventComponent = ({ eventName,
 
 }
 const Events = () => {
+    const pathname = usePathname()
     return (
-        <div className="relative w-full h-fit  gap-9">
+        <div className={`relative w-full h-fit ${pathname === '/events' && 'mt-[14rem]'}  gap-9`}>
             <div className='absolute -top-9 left-9 md:left-32 -rotate-12 bg-[#8DB6F8] p-[16px] md:p-[32px]'>
                 <Image src={'/domains_pin.png'} alt='pin' height={40} width={40} className='absolute -top-5 -right-3 rotate-2' />
                 <p className="text-xl md:text-3xl text-white">Events</p>
