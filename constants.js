@@ -73,3 +73,28 @@ export const posts = {
     //   date: 'Oct 30, 2022'
     // }
   }
+
+export const domainsData = [
+    {
+        heading: "AR/ VR",
+        description: "Step into immersive virtual and augmented reality experiences."
+    },
+    {
+        heading: "CLOUD DEVELOPMENT",
+        description: "Harness the limitless potential of cloud computing."
+    },
+    {
+        heading: "AI & MACHINE LEARNING",
+        description: "Dive into the world of AI and ML, learning to harness the power of data and automation."
+    }
+    ,
+    {
+        heading: "APP DEVELOPMENT",
+        description: "Craft innovative and problem solving mobile applications."
+    },
+    {
+        heading: "WEB DEVELOPMENT",
+        description: "Create stunning websites and web applications, mastering the art of modern web design."
+    }
+    
+]
