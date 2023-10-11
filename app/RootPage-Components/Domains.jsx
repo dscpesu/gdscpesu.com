@@ -12,21 +12,21 @@ import GreyDiv from "../../public/domains_icons/grey_card.png"
 const Domains = () => {
 
   return (
-    <div className="relative w-full h-fit bg-[#F9F9F9]">
+    <div className="relative w-full h-fit bg-[#F9F9F9]" id='domains'>
       <div className='absolute -top-9 left-9 md:left-32 -rotate-12 bg-[#81C784] p-[16px] md:p-[32px]'>
         <Image src={'/domains_pin.png'} alt='pin' height={40} width={40} className='absolute -top-5 -right-3 rotate-2' />
         <p className="text-xl md:text-3xl text-white">Domains</p>
       </div>
-      <div class="w-full flex flex-col items-center mt-[80px]">
-        <div class="flex flex-col items-center w-full md:flex-row md:flex-wrap md:justify-between md:items-center md:w-[90%]">
-          <div class="w-full flex flex-col items-center mb-[40px] md:w-[407px] md:items-left">
-            <h4 class="text-black w-[80%] text-xl">Explore the exciting realms of technology with us :</h4>
+      <div className="w-full flex flex-col items-center mt-[80px]">
+        <div className="flex flex-col items-center w-full md:flex-row md:flex-wrap md:justify-between md:items-center md:w-[90%]">
+          <div className="w-full flex flex-col items-center mb-[40px] md:w-[407px] md:items-left">
+            <h4 className="text-black w-[80%] text-xl">Explore the exciting realms of technology with us :</h4>
           </div>
-          <Image class="h-[300px] w-[350px] md:h-[350px] md:w-[400px] mt-[50px]" src={RedDiv} alt="AR/VR" />
-          <Image class="h-[300px] w-[350px] md:h-[350px] md:w-[400px] mt-[50px]" src={GreenDiv} alt="Cloud Development" />
-          <Image class="h-[350px] w-[350px] md:h-[400px] md:w-[400px] mt-[50px]" src={BlueDiv} alt="AI & ML" />
-          <Image class="h-[350px] w-[350px] md:h-[400px] md:w-[400px] mt-[50px]" src={YellowDiv} alt="App Development" />
-          <Image class="h-[350px] w-[350px] md:h-[400px] md:w-[400px] mt-[50px]" src={GreyDiv} alt="Web Development" />
+          <Image className="h-[300px] w-[350px] md:h-[350px] md:w-[400px] mt-[50px]" src={RedDiv} alt="AR/VR" />
+          <Image className="h-[300px] w-[350px] md:h-[350px] md:w-[400px] mt-[50px]" src={GreenDiv} alt="Cloud Development" />
+          <Image className="h-[350px] w-[350px] md:h-[400px] md:w-[400px] mt-[50px]" src={BlueDiv} alt="AI & ML" />
+          <Image className="h-[350px] w-[350px] md:h-[400px] md:w-[400px] mt-[50px]" src={YellowDiv} alt="App Development" />
+          <Image className="h-[350px] w-[350px] md:h-[400px] md:w-[400px] mt-[50px]" src={GreyDiv} alt="Web Development" />
           {/* <DomainCard divImg={RedDiv} heading={domainsData[0].heading} description={domainsData[0].description}  />
           <DomainCard divImg={GreenDiv} heading={domainsData[1].heading} description={domainsData[1].description}  />
           <DomainCard divImg={BlueDiv} heading={domainsData[2].heading} description={domainsData[2].description}  />

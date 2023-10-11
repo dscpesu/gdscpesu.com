@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const AboutUs = () => {
     return (
-        <div id="#about" className="relative w-full h-[80vh] lg:h-[60vh]  object-cover flex items-center    bg-[url('/hero-vector.png')]   ">
+        <div id="about" className="relative w-full h-[80vh] lg:h-[60vh]  object-cover flex items-center    bg-[url('/hero-vector.png')]   ">
             <Image src = {'/about_us_arrow.png'} alt = 'about_us_arrow' height={80} width = {80} className = 'absolute  left-16 top-16 hidden md:flex' />
             <div className='absolute -top-9 left-9 md:left-32 -rotate-12 bg-[#8DB6F8] p-[16px] md:p-[32px]'>
                 <p className="text-xl md:text-3xl text-white">About Us</p>

@@ -9,7 +9,7 @@ const footerElements = [
     },
     {
         footerElementName: 'Domains',
-        link: '/'
+        link: '#domains'
     },
     {
         footerElementName: 'Team',
@@ -28,17 +28,17 @@ const footerIcons = [
     {
         footerIconSourcePath: '/footer_icons/whatsapp.png',
         footerIconAlt: 'whatsapp',
-        footerIconLink: '/',
+        footerIconLink: 'https://chat.whatsapp.com/IHvpmXAMptz7AiDoJM4UJN',
     },
     {
         footerIconSourcePath: '/footer_icons/instagram.png',
         footerIconAlt: 'instagram',
-        footerIconLink: '/',
+        footerIconLink: 'https://www.instagram.com/gdscpesu.rr',
     },
     {
         footerIconSourcePath: '/footer_icons/linkedin.png',
         footerIconAlt: 'linkedin',
-        footerIconLink: '/',
+        footerIconLink: 'https://www.linkedin.com/company/dscpesu',
     },
     {
         footerIconSourcePath: '/footer_icons/discord.png',
@@ -48,7 +48,7 @@ const footerIcons = [
     {
         footerIconSourcePath: '/footer_icons/github.png',
         footerIconAlt: 'github',
-        footerIconLink: '/',
+        footerIconLink: 'https://github.com/dscpesu',
     },
 ]
 const GDSCFooterTitle = () => {
