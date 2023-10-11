@@ -64,7 +64,7 @@ const EventComponent = ({ eventName,
 const Events = () => {
     const pathname = usePathname()
     return (
-        <div className={`relative w-full h-fit ${pathname === '/events' && 'mt-[14rem]'}  gap-9`}>
+        <div className={`relative w-full h-fit ${pathname === '/events' && 'mt-[14rem]'}  gap-9` }  id = "events" >
             <div className='absolute -top-9 left-9 md:left-32 -rotate-12 bg-[#8DB6F8] p-[16px] md:p-[32px]'>
                 <Image src={'/domains_pin.png'} alt='pin' height={40} width={40} className='absolute -top-5 -right-3 rotate-2' />
                 <p className="text-xl md:text-3xl text-white">Events</p>

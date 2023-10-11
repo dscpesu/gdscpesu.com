@@ -12,15 +12,15 @@ export default function WhatWeOfferCard(props) {
     }; 
 
     return(
-        <div class={props.divWidth} style={outerDivStyle}>
-            <div class="w-full rounded-[10px] overflow-hidden}">
-                <div class="">
-                    <div class={props.stripClass}>
+        <div className={props.divWidth} style={outerDivStyle}>
+            <div className="w-full rounded-[10px] overflow-hidden}">
+                <div className="">
+                    <div className={props.stripClass}>
                     </div>
-                    <div class="w-full flex flex-col items-center border border-[#656C73] border-t-0 rounded-b-[10px]">
-                        <div class="w-[90%] flex flex-col mt-[20px] mb-[20px] gap-[20px] ">
-                            <h4 class="text-[#656C73] text-2xl">{props.heading}</h4>
-                            <p class="text-[#000000] text-base">{props.description}</p>
+                    <div className="w-full flex flex-col items-center border border-[#656C73] border-t-0 rounded-b-[10px]">
+                        <div className="w-[90%] flex flex-col mt-[20px] mb-[20px] gap-[20px] ">
+                            <h4 className="text-[#656C73] text-2xl">{props.heading}</h4>
+                            <p className="text-[#000000] text-base">{props.description}</p>
                         </div>
                     </div>
                 </div>

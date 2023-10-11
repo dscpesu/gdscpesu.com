@@ -91,7 +91,7 @@ export const Navbar = () => {
                                 <Link href="/" className="text-[#585858] hover:text-[#323131]  transition ease-in duration-100">Home</Link>
                             </li>
                             <li className={`w-fit  text-md lg:text-[20px] md:py-9 px-3 rounded-b-sm md:border-b-4 md:border-[#EA4335]   `} >
-                                <Link href="/" className="text-[#585858] hover:text-[#323131]  transition ease-in duration-100">Events</Link>
+                                <Link href="#events" className="text-[#585858] hover:text-[#323131]  transition ease-in duration-100">Events</Link>
                             </li>
                             <li className={`w-fit   text-md lg:text-[20px] md:py-9 px-3 rounded-b-sm md:border-b-4 md:border-[#34A853]   `} >
                                 <Link href="/" className="text-[#585858] hover:text-[#323131]  transition ease-in duration-100">Projects</Link>
