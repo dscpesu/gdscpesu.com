@@ -25,16 +25,16 @@ const TeamMember = ({ memberName, memberPosition, rotationIndex, memberPhoto }) 
     )
 }
 
-const TeamMembers= () => {
+const TeamMembers = () => {
 	return (
 		<div className="grid grid-cols-7 overflow-x-scroll my-32 p-5 md:p-10  flex-shrink-0 gap-x-[24rem] md:gap-x-[30rem] gap-y-32">
-			{domainLeads.map((domainLead)=>{
+			{domainLeads.map((domainLead, index)=>{
 				if(rotationIndex!=5){
 					rotationIndex++;
 				}else{
 					rotationIndex=0;
 				}
-				return <TeamMember memberName={domainLead.name} memberPosition={domainLead.role}  rotationIndex={rotationIndex} memberPhoto={domainLead.imageSRC}/>;
+				return <TeamMember key={index.toString()} memberName={domainLead.name} memberPosition={domainLead.role}  rotationIndex={rotationIndex} memberPhoto={domainLead.imageSRC}/>;
 			})}
 		</div>
 	)
