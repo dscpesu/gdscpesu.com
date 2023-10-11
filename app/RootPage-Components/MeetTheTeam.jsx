@@ -8,13 +8,14 @@ import { domainLeads } from '@/constants'
 const rotateStyles = [
     'rotate-2', 'rotate-0', 'rotate-2', '-rotate-2', 'rotate-0', '-rotate-2'
 ]
+let rotationIndex=0;
 
 const TeamMember = ({ memberName, memberPosition, rotationIndex, memberPhoto }) => {
     return (
         <div className={`h-[320px] w-[240px] md:h-[380px] md:w-[320px] border-2  rounded-[8px] ${rotateStyles[rotationIndex % rotateStyles.length]}`}>
-            <div className="h-[80%] flex items-center justify-center ">
+            <div className="h-[80%] flex items-center justify-center">
 				{/*<div className="bg-gray-200 h-[190px] w-[200px] md:h-[251px] md:w-[261px] shadow-md rounded-md"/>*/}
-                <Image src={memberPhoto} alt = {memberName} height = {251} width = {261} className = 'h-[190px] w-[200px] md:h-[251px] md:w-[261px] shadow-md'/>
+                <Image src={memberPhoto} alt = {memberName} height = {251} width = {261} className = 'h-[190px] w-[200px] md:h-[251px] md:w-[261px] shadow-md rounded-md'/>
             </div>
             <div className="flex flex-col items-center justify-center">
                 <p className="text-[#666666]">{memberName}</p>
@@ -25,7 +26,6 @@ const TeamMember = ({ memberName, memberPosition, rotationIndex, memberPhoto }) 
 }
 
 const TeamMembers= () => {
-	var rotationIndex=0;
 	return (
 		<div className="grid grid-cols-7 overflow-x-scroll my-32 p-5 md:p-10  flex-shrink-0 gap-x-[24rem] md:gap-x-[30rem] gap-y-32">
 			{domainLeads.map((domainLead)=>{
