@@ -33,7 +33,7 @@ export const Navbar = () => {
 
     return (
         <nav
-            className={`fixed inset-x-0 top-0 z-50 backdrop-blur  duration-150   bg-[#F0F0F0] shadow-xl`} ref={ref}
+            className='fixed inset-x-0 top-0 z-50 backdrop-blur-md duration-150 border-b border-gray-200 shadow-md' ref={ref}
         >
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
