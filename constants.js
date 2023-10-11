@@ -98,3 +98,71 @@ export const domainsData = [
     }
     
 ]
+
+export const domainLeads = [
+{
+    name:'Adithya S Kolavi',
+    role:'GDSC Lead',
+    imageSRC: '/domainLeads/adithyask_small.jpg'
+},
+{
+    name:'Achala Nayak',
+    role:'Student Coordinator',
+    imageSRC: '/domainLeads/Achala.jpg'
+}, 
+{
+    name:'Shubh Kanodia',
+    role:'App Dev Lead',
+    imageSRC: '/domainLeads/ShubhKanodia_AppDev.jpg'
+}, 
+{
+    name:'Aditya Vikram Singh',
+    role:'AR VR Lead',
+    imageSRC: '/domainLeads/AdityaVikramSingh_ARVR.jpg'
+}, 
+{
+    name:'Karthik Namboori',
+    role:'Web Dev Lead',
+    imageSRC: '/domainLeads/KarthikNamboori_WebDev.png'
+}, 
+{
+    name:'Akanksha S',
+    role:'EVM Lead',
+    imageSRC: '/domainLeads/akanksha_s_evm_lead.png'
+}, 
+{
+    name:'Anirudh Lakhotia',
+    role:'Technical Lead',
+    imageSRC: '/domainLeads/AnirudhLakhotia_Technical.png'
+}, 
+{
+    name:'Tanav Bharadhwaj',
+    role:'Design Lead',
+    imageSRC: '/domainLeads/Tanav_Design.jpg'
+}, 
+{
+    name:'Akash Kamalesh',
+    role:'AI ML Lead',
+    imageSRC: '/domainLeads/AkashKamalesh_AIMLLead.jpg'
+}, 
+{
+    name:'Avanish Shenoy',
+    role:'AR VR Lead',
+    imageSRC: '/domainLeads/avanish_arvr.jpg'
+}, 
+{
+    name:'Keerthan G',
+    role:'Cloud Dev Lead',
+    imageSRC: '/domainLeads/KeerthanG_CloudDevelopment.jpg'
+}, 
+{
+    name:'A Sakthe Balan',
+    role:'Cloud Dev Lead',
+    imageSRC: '/domainLeads/Sakthe_CloudDevelopment.jpg'
+}, 
+{
+    name:'Abhignya Kotha',
+    role:'Operations',
+    imageSRC: '/domainLeads/Abhignya_Kotha_Operations.jpg'
+}
+]
