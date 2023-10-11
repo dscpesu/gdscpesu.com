@@ -56,26 +56,6 @@ const MeetTheTeam = () => {
                 <TeamMember memberName={"John Doe"} memberPosition={"Domain Lead"} rotationIndex={5} />
                 <TeamMember />
             </div> */}
-			{/*<div className="grid grid-cols-9 overflow-x-scroll my-32 p-5 md:p-10  flex-shrink-0 gap-x-[24rem] md:gap-x-[30rem] gap-y-32   ">
-                <TeamMember memberName={domainLeads[0].name} memberPosition={domainLeads[0].role}  rotationIndex={0} memberPhoto={domainLeads[0].imageSRC}/>
-                <TeamMember memberName={"John Doe"} memberPosition={"Domain Lead"} rotationIndex={1}  />
-                <TeamMember memberName={"John Doe"} memberPosition={"Domain Lead"} rotationIndex={2} />
-                <TeamMember memberName={"John Doe"} memberPosition={"Domain Lead"} rotationIndex={3} />
-                <TeamMember memberName={"John Doe"} memberPosition={"Domain Lead"} rotationIndex={4} />
-                <TeamMember memberName={"John Doe"} memberPosition={"Domain Lead"} rotationIndex={5} />
-                <TeamMember memberName={"John Doe"} memberPosition={"Domain Lead"} rotationIndex={0} />
-                <TeamMember memberName={"John Doe"} memberPosition={"Domain Lead"} rotationIndex={1} />
-                <TeamMember memberName={"John Doe"} memberPosition={"Domain Lead"} rotationIndex={2} />
-                <TeamMember memberName={"John Doe"} memberPosition={"Domain Lead"} rotationIndex={3} />
-                <TeamMember memberName={"John Doe"} memberPosition={"Domain Lead"} rotationIndex={4} />
-                <TeamMember memberName={"John Doe"} memberPosition={"Domain Lead"} rotationIndex={5} />
-                <TeamMember memberName={"John Doe"} memberPosition={"Domain Lead"} rotationIndex={5} />
-                <TeamMember memberName={"John Doe"} memberPosition={"Domain Lead"} rotationIndex={0} />
-                <TeamMember memberName={"John Doe"} memberPosition={"Domain Lead"} rotationIndex={1} />
-                <TeamMember memberName={"John Doe"} memberPosition={"Domain Lead"} rotationIndex={2} />
-                <TeamMember memberName={"John Doe"} memberPosition={"Domain Lead"} rotationIndex={3} />
-                <TeamMember memberName={"John Doe"} memberPosition={"Domain Lead"} rotationIndex={4} /> 
-			</div>*/}
 			<TeamMembers/>
             <div className="w-full  h-9 relative ">
                 {/* <Link href={'/team'}> */}
