@@ -121,9 +121,9 @@ export const domainLeads = [
     imageSRC: '/domainLeads/AdityaVikramSingh_ARVR.jpg'
 }, 
 {
-    name:'Karthik Namboori',
-    role:'Web Dev Lead',
-    imageSRC: '/domainLeads/KarthikNamboori_WebDev.png'
+    name:'Tanav Bharadhwaj',
+    role:'Design Lead',
+    imageSRC: '/domainLeads/Tanav_Design.jpg'
 }, 
 {
     name:'Akanksha S',
@@ -136,9 +136,9 @@ export const domainLeads = [
     imageSRC: '/domainLeads/AnirudhLakhotia_Technical.png'
 }, 
 {
-    name:'Tanav Bharadhwaj',
-    role:'Design Lead',
-    imageSRC: '/domainLeads/Tanav_Design.jpg'
+    name:'Karthik Namboori',
+    role:'Web Dev Lead',
+    imageSRC: '/domainLeads/KarthikNamboori_WebDev.png'
 }, 
 {
     name:'Akash Kamalesh',
